@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget41"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<ListView
+	android:id="@+id/ListView01"
+	android:layout_width="319dp"
+	android:layout_height="362dp"
+	android:layout_x="0dp"
+	android:layout_y="0dp" />
+<Button
+	android:id="@+id/SelectAll"
+	android:layout_width="160dp"
+	android:layout_height="66dp"
+	android:text="Select All"
+	android:layout_x="0dp"
+	android:layout_y="365dp" />
+<Button
+	android:id="@+id/Submit"
+	android:layout_width="160dp"
+	android:layout_height="66dp"
+	android:text="Submit"
+	android:layout_x="159dp"
+	android:layout_y="365dp" />
+</AbsoluteLayout>
