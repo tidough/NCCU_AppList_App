@@ -1,4 +1,8 @@
-package com.example.applist;
+package edu.nccu.cs.sna.applist;
+
+import edu.nccu.cs.sna.applist.R.id;
+import edu.nccu.cs.sna.applist.R.layout;
+import edu.nccu.cs.sna.applist.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;

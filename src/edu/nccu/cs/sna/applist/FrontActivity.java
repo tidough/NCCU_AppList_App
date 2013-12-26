@@ -1,4 +1,4 @@
-package com.example.applist;
+package edu.nccu.cs.sna.applist;
 
 import android.os.Bundle;
 import android.app.Activity;

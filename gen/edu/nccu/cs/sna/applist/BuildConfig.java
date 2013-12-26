@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.example.applist;
+package edu.nccu.cs.sna.applist;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;
