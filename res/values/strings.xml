@@ -8,5 +8,6 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_front">FrontActivity</string>
+    <string name="app_id">581538358592215</string>
 
 </resources>
