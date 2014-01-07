@@ -20,6 +20,7 @@ public class FrontActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	    selectButt = (Button)findViewById(R.id.select);
+	    serviceButt = (Button)findViewById(R.id.service);
 	    statText = (TextView)findViewById(R.id.stat);
 	    statText.setText("");
 		selectButt.setOnClickListener(jumppage);
@@ -54,17 +55,15 @@ public class FrontActivity extends Activity {
 	
 	private Button.OnClickListener jumppage = new Button.OnClickListener(){
 		public void onClick(View v){
-			Intent intent = new Intent();
-			intent.setClass(FrontActivity.this, SelectActivity.class);
+			Intent intent = new Intent(FrontActivity.this, SelectActivity.class);
 			startActivity(intent);
 		}
 	};
 	
 	private Button.OnClickListener startCounter = new Button.OnClickListener(){
 		public void onClick(View v){
-			Intent intent = new Intent();
-			intent.setClass(FrontActivity.this, MonitorService.class);
-			startActivity(intent);
+			Intent intent = new Intent(FrontActivity.this, MonitorService.class);
+			startService(intent);
 		}
 	};
 	
