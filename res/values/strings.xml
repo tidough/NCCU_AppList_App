@@ -2,12 +2,14 @@
 <resources>
 
     <string name="app_name">AppList</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_select">SelectActivity</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_front">FrontActivity</string>
+    <string name="title_activity_select">Submit your applist</string>
+    <string name="title_activity_front">Welcome to Applist</string>
+    <string name="action_settings">Setting</string>
+    <string name="hello_world">Hello Applist!</string>
+    <string name="select_button">Submit applist</string>
+    <string name="service_button">Record your applist</string>
+    <string name="select_all">Select all</string>
+    <string name="submit">Submit applist</string>
     <string name="app_id">581538358592215</string>
 
 </resources>

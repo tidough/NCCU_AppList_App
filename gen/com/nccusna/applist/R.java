@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package edu.nccu.cs.sna.applist;
+package com.nccusna.applist;
 
 public final class R {
     public static final class attr {
@@ -228,37 +228,39 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020020;
     }
     public static final class id {
-        public static final int ListView01=0x7f040006;
-        public static final int SelectAll=0x7f040007;
-        public static final int Submit=0x7f040008;
-        public static final int action_settings=0x7f04001e;
-        public static final int com_facebook_login_activity_progress_bar=0x7f04000b;
-        public static final int com_facebook_picker_activity_circle=0x7f04000a;
-        public static final int com_facebook_picker_checkbox=0x7f04000d;
-        public static final int com_facebook_picker_checkbox_stub=0x7f040011;
-        public static final int com_facebook_picker_divider=0x7f040015;
-        public static final int com_facebook_picker_done_button=0x7f040014;
-        public static final int com_facebook_picker_image=0x7f04000e;
-        public static final int com_facebook_picker_list_section_header=0x7f040012;
-        public static final int com_facebook_picker_list_view=0x7f040009;
-        public static final int com_facebook_picker_profile_pic_stub=0x7f04000f;
-        public static final int com_facebook_picker_row_activity_circle=0x7f04000c;
-        public static final int com_facebook_picker_search_text=0x7f04001a;
-        public static final int com_facebook_picker_title=0x7f040010;
-        public static final int com_facebook_picker_title_bar=0x7f040017;
-        public static final int com_facebook_picker_title_bar_stub=0x7f040016;
-        public static final int com_facebook_picker_top_bar=0x7f040013;
-        public static final int com_facebook_search_bar_view=0x7f040019;
-        public static final int com_facebook_usersettingsfragment_login_button=0x7f04001d;
-        public static final int com_facebook_usersettingsfragment_logo_image=0x7f04001b;
-        public static final int com_facebook_usersettingsfragment_profile_name=0x7f04001c;
+        public static final int ListView01=0x7f040008;
+        public static final int SelectAll=0x7f040009;
+        public static final int Submit=0x7f04000a;
+        public static final int action_settings=0x7f040020;
+        public static final int com_facebook_login_activity_progress_bar=0x7f04000d;
+        public static final int com_facebook_picker_activity_circle=0x7f04000c;
+        public static final int com_facebook_picker_checkbox=0x7f04000f;
+        public static final int com_facebook_picker_checkbox_stub=0x7f040013;
+        public static final int com_facebook_picker_divider=0x7f040017;
+        public static final int com_facebook_picker_done_button=0x7f040016;
+        public static final int com_facebook_picker_image=0x7f040010;
+        public static final int com_facebook_picker_list_section_header=0x7f040014;
+        public static final int com_facebook_picker_list_view=0x7f04000b;
+        public static final int com_facebook_picker_profile_pic_stub=0x7f040011;
+        public static final int com_facebook_picker_row_activity_circle=0x7f04000e;
+        public static final int com_facebook_picker_search_text=0x7f04001c;
+        public static final int com_facebook_picker_title=0x7f040012;
+        public static final int com_facebook_picker_title_bar=0x7f040019;
+        public static final int com_facebook_picker_title_bar_stub=0x7f040018;
+        public static final int com_facebook_picker_top_bar=0x7f040015;
+        public static final int com_facebook_search_bar_view=0x7f04001b;
+        public static final int com_facebook_usersettingsfragment_login_button=0x7f04001f;
+        public static final int com_facebook_usersettingsfragment_logo_image=0x7f04001d;
+        public static final int com_facebook_usersettingsfragment_profile_name=0x7f04001e;
+        public static final int frontLayout=0x7f040003;
         public static final int large=0x7f040002;
         public static final int normal=0x7f040001;
-        public static final int picker_subtitle=0x7f040018;
-        public static final int select=0x7f040005;
+        public static final int picker_subtitle=0x7f04001a;
+        public static final int select=0x7f040004;
+        public static final int selectLayout=0x7f040007;
+        public static final int service=0x7f040006;
         public static final int small=0x7f040000;
-        public static final int stat=0x7f040004;
-        public static final int widget41=0x7f040003;
+        public static final int stat=0x7f040005;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -283,8 +285,8 @@ containing a value of this type.
         public static final int select=0x7f090001;
     }
     public static final class string {
-        public static final int action_settings=0x7f07001d;
-        public static final int app_id=0x7f070020;
+        public static final int action_settings=0x7f07001c;
+        public static final int app_id=0x7f070022;
         public static final int app_name=0x7f070019;
         public static final int com_facebook_choose_friends=0x7f07000f;
         public static final int com_facebook_dialogloginactivity_ok_button=0x7f070000;
@@ -311,11 +313,13 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_log_in_button=0x7f070008;
         public static final int com_facebook_usersettingsfragment_logged_in=0x7f070009;
         public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f07000a;
-        public static final int dummy_button=0x7f07001a;
-        public static final int dummy_content=0x7f07001b;
-        public static final int hello_world=0x7f07001e;
-        public static final int title_activity_front=0x7f07001f;
-        public static final int title_activity_select=0x7f07001c;
+        public static final int hello_world=0x7f07001d;
+        public static final int select_all=0x7f070020;
+        public static final int select_button=0x7f07001e;
+        public static final int service_button=0x7f07001f;
+        public static final int submit=0x7f070021;
+        public static final int title_activity_front=0x7f07001b;
+        public static final int title_activity_select=0x7f07001a;
     }
     public static final class style {
         /** 
@@ -349,8 +353,9 @@ containing a value of this type.
         public static final int AppTheme=0x7f080003;
         public static final int ButtonBar=0x7f080005;
         public static final int ButtonBarButton=0x7f080006;
-        public static final int FullscreenActionBarStyle=0x7f080007;
+        public static final int FullscreenActionBarStyle=0x7f080008;
         public static final int FullscreenTheme=0x7f080004;
+        public static final int Holo=0x7f080007;
         public static final int com_facebook_loginview_default_style=0x7f080000;
         public static final int com_facebook_loginview_silver_style=0x7f080001;
     }
@@ -366,8 +371,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarButtonStyle edu.nccu.cs.sna.applist:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarStyle edu.nccu.cs.sna.applist:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarButtonStyle com.nccusna.applist:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarStyle com.nccusna.applist:buttonBarStyle}</code></td><td></td></tr>
            </table>
            @see #ButtonBarContainerTheme_buttonBarButtonStyle
            @see #ButtonBarContainerTheme_buttonBarStyle
@@ -376,23 +381,23 @@ containing a value of this type.
             0x7f010012, 0x7f010013
         };
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.nccu.cs.sna.applist:buttonBarButtonStyle
+          @attr name com.nccusna.applist:buttonBarButtonStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarButtonStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.nccu.cs.sna.applist:buttonBarStyle
+          @attr name com.nccusna.applist:buttonBarStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarStyle = 0;
         /** Attributes that can be used with a com_facebook_friend_picker_fragment.
@@ -401,7 +406,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_friend_picker_fragment_multi_select edu.nccu.cs.sna.applist:multi_select}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_friend_picker_fragment_multi_select com.nccusna.applist:multi_select}</code></td><td></td></tr>
            </table>
            @see #com_facebook_friend_picker_fragment_multi_select
          */
@@ -409,7 +414,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010007
         };
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#multi_select}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#multi_select}
           attribute's value can be found in the {@link #com_facebook_friend_picker_fragment} array.
 
 
@@ -419,7 +424,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:multi_select
+          @attr name com.nccusna.applist:multi_select
         */
         public static final int com_facebook_friend_picker_fragment_multi_select = 0;
         /** Attributes that can be used with a com_facebook_login_view.
@@ -428,10 +433,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_login_view_confirm_logout edu.nccu.cs.sna.applist:confirm_logout}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_login_view_fetch_user_info edu.nccu.cs.sna.applist:fetch_user_info}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_login_view_login_text edu.nccu.cs.sna.applist:login_text}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_login_view_logout_text edu.nccu.cs.sna.applist:logout_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_confirm_logout com.nccusna.applist:confirm_logout}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_fetch_user_info com.nccusna.applist:fetch_user_info}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_login_text com.nccusna.applist:login_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_logout_text com.nccusna.applist:logout_text}</code></td><td></td></tr>
            </table>
            @see #com_facebook_login_view_confirm_logout
            @see #com_facebook_login_view_fetch_user_info
@@ -442,7 +447,7 @@ containing a value of this type.
             0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f
         };
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#confirm_logout}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#confirm_logout}
           attribute's value can be found in the {@link #com_facebook_login_view} array.
 
 
@@ -452,11 +457,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:confirm_logout
+          @attr name com.nccusna.applist:confirm_logout
         */
         public static final int com_facebook_login_view_confirm_logout = 0;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#fetch_user_info}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#fetch_user_info}
           attribute's value can be found in the {@link #com_facebook_login_view} array.
 
 
@@ -466,11 +471,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:fetch_user_info
+          @attr name com.nccusna.applist:fetch_user_info
         */
         public static final int com_facebook_login_view_fetch_user_info = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#login_text}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#login_text}
           attribute's value can be found in the {@link #com_facebook_login_view} array.
 
 
@@ -480,11 +485,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:login_text
+          @attr name com.nccusna.applist:login_text
         */
         public static final int com_facebook_login_view_login_text = 2;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#logout_text}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#logout_text}
           attribute's value can be found in the {@link #com_facebook_login_view} array.
 
 
@@ -494,7 +499,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:logout_text
+          @attr name com.nccusna.applist:logout_text
         */
         public static final int com_facebook_login_view_logout_text = 3;
         /** Attributes that can be used with a com_facebook_picker_fragment.
@@ -503,13 +508,13 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_done_button_background edu.nccu.cs.sna.applist:done_button_background}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_done_button_text edu.nccu.cs.sna.applist:done_button_text}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_extra_fields edu.nccu.cs.sna.applist:extra_fields}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_show_pictures edu.nccu.cs.sna.applist:show_pictures}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_show_title_bar edu.nccu.cs.sna.applist:show_title_bar}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_title_bar_background edu.nccu.cs.sna.applist:title_bar_background}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_title_text edu.nccu.cs.sna.applist:title_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_done_button_background com.nccusna.applist:done_button_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_done_button_text com.nccusna.applist:done_button_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_extra_fields com.nccusna.applist:extra_fields}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_show_pictures com.nccusna.applist:show_pictures}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_show_title_bar com.nccusna.applist:show_title_bar}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_title_bar_background com.nccusna.applist:title_bar_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_title_text com.nccusna.applist:title_text}</code></td><td></td></tr>
            </table>
            @see #com_facebook_picker_fragment_done_button_background
            @see #com_facebook_picker_fragment_done_button_text
@@ -524,17 +529,17 @@ containing a value of this type.
             0x7f010004, 0x7f010005, 0x7f010006
         };
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#done_button_background}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#done_button_background}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.nccu.cs.sna.applist:done_button_background
+          @attr name com.nccusna.applist:done_button_background
         */
         public static final int com_facebook_picker_fragment_done_button_background = 6;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#done_button_text}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#done_button_text}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
@@ -544,11 +549,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:done_button_text
+          @attr name com.nccusna.applist:done_button_text
         */
         public static final int com_facebook_picker_fragment_done_button_text = 4;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#extra_fields}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#extra_fields}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
@@ -558,11 +563,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:extra_fields
+          @attr name com.nccusna.applist:extra_fields
         */
         public static final int com_facebook_picker_fragment_extra_fields = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#show_pictures}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#show_pictures}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
@@ -572,11 +577,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:show_pictures
+          @attr name com.nccusna.applist:show_pictures
         */
         public static final int com_facebook_picker_fragment_show_pictures = 0;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#show_title_bar}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#show_title_bar}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
@@ -586,21 +591,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:show_title_bar
+          @attr name com.nccusna.applist:show_title_bar
         */
         public static final int com_facebook_picker_fragment_show_title_bar = 2;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#title_bar_background}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#title_bar_background}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.nccu.cs.sna.applist:title_bar_background
+          @attr name com.nccusna.applist:title_bar_background
         */
         public static final int com_facebook_picker_fragment_title_bar_background = 5;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#title_text}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#title_text}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
@@ -610,7 +615,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:title_text
+          @attr name com.nccusna.applist:title_text
         */
         public static final int com_facebook_picker_fragment_title_text = 3;
         /** Attributes that can be used with a com_facebook_place_picker_fragment.
@@ -619,10 +624,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_place_picker_fragment_radius_in_meters edu.nccu.cs.sna.applist:radius_in_meters}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_place_picker_fragment_results_limit edu.nccu.cs.sna.applist:results_limit}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_place_picker_fragment_search_text edu.nccu.cs.sna.applist:search_text}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_place_picker_fragment_show_search_box edu.nccu.cs.sna.applist:show_search_box}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_place_picker_fragment_radius_in_meters com.nccusna.applist:radius_in_meters}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_place_picker_fragment_results_limit com.nccusna.applist:results_limit}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_place_picker_fragment_search_text com.nccusna.applist:search_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_place_picker_fragment_show_search_box com.nccusna.applist:show_search_box}</code></td><td></td></tr>
            </table>
            @see #com_facebook_place_picker_fragment_radius_in_meters
            @see #com_facebook_place_picker_fragment_results_limit
@@ -633,7 +638,7 @@ containing a value of this type.
             0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
         };
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#radius_in_meters}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#radius_in_meters}
           attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
 
 
@@ -643,11 +648,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:radius_in_meters
+          @attr name com.nccusna.applist:radius_in_meters
         */
         public static final int com_facebook_place_picker_fragment_radius_in_meters = 0;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#results_limit}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#results_limit}
           attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
 
 
@@ -657,11 +662,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:results_limit
+          @attr name com.nccusna.applist:results_limit
         */
         public static final int com_facebook_place_picker_fragment_results_limit = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#search_text}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#search_text}
           attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
 
 
@@ -671,11 +676,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:search_text
+          @attr name com.nccusna.applist:search_text
         */
         public static final int com_facebook_place_picker_fragment_search_text = 2;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#show_search_box}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#show_search_box}
           attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
 
 
@@ -685,7 +690,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:show_search_box
+          @attr name com.nccusna.applist:show_search_box
         */
         public static final int com_facebook_place_picker_fragment_show_search_box = 3;
         /** Attributes that can be used with a com_facebook_profile_picture_view.
@@ -694,8 +699,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_profile_picture_view_is_cropped edu.nccu.cs.sna.applist:is_cropped}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_profile_picture_view_preset_size edu.nccu.cs.sna.applist:preset_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_profile_picture_view_is_cropped com.nccusna.applist:is_cropped}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_profile_picture_view_preset_size com.nccusna.applist:preset_size}</code></td><td></td></tr>
            </table>
            @see #com_facebook_profile_picture_view_is_cropped
            @see #com_facebook_profile_picture_view_preset_size
@@ -704,7 +709,7 @@ containing a value of this type.
             0x7f010010, 0x7f010011
         };
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#is_cropped}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#is_cropped}
           attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
 
 
@@ -714,11 +719,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.nccu.cs.sna.applist:is_cropped
+          @attr name com.nccusna.applist:is_cropped
         */
         public static final int com_facebook_profile_picture_view_is_cropped = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.nccu.cs.sna.applist.R.attr#preset_size}
+          <p>This symbol is the offset where the {@link com.nccusna.applist.R.attr#preset_size}
           attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
 
 
@@ -732,7 +737,7 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>-3</td><td></td></tr>
 <tr><td><code>large</code></td><td>-4</td><td></td></tr>
 </table>
-          @attr name edu.nccu.cs.sna.applist:preset_size
+          @attr name com.nccusna.applist:preset_size
         */
         public static final int com_facebook_profile_picture_view_preset_size = 0;
     };

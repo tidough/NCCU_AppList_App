@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/widget41"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frontLayout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:gravity="center_vertical|center"
     android:orientation="vertical" >
-    
-<TextView
-    android:id="@+id/stat"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Facebook login status"
-    android:textSize="30sp" />
-  
+
 <Button
     android:id="@+id/select"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Choose My Apps!" />
-</LinearLayout>
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="@string/select_button" />
+
+<TextView
+    android:id="@+id/stat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/select"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:text="@string/hello_world"
+    android:textSize="30sp" />
+
+<Button
+    android:id="@+id/service"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/select"
+    android:layout_centerHorizontal="true"
+    android:text="@string/service_button" />
+
+</RelativeLayout>

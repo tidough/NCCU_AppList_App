@@ -1,8 +1,9 @@
-package edu.nccu.cs.sna.applist;
+package com.nccusna.applist;
 
-import edu.nccu.cs.sna.applist.R.id;
-import edu.nccu.cs.sna.applist.R.layout;
-import edu.nccu.cs.sna.applist.R.menu;
+import com.nccusna.applist.R;
+import com.nccusna.applist.R.id;
+import com.nccusna.applist.R.layout;
+import com.nccusna.applist.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -28,13 +29,6 @@ public class SelectActivity extends Activity {
 		lView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
 		Button SelectAll = (Button)findViewById(R.id.SelectAll);
 		Button Submit = (Button)findViewById(R.id.Submit);
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.select, menu);
-		return true;
 	}
 
 }
