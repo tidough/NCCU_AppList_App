@@ -12,19 +12,23 @@ import com.facebook.model.*;
 
 public class FrontActivity extends Activity {
 	private Button selectButt;
-	private Button serviceButt;
+	private Button serviceOnButt;
+	private Button serviceOffButt;
 	private TextView statText;
+	private GraphUser theUser ;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	    selectButt = (Button)findViewById(R.id.select);
-	    serviceButt = (Button)findViewById(R.id.service);
+	    serviceOnButt = (Button)findViewById(R.id.serviceOn);
+	    serviceOffButt = (Button)findViewById(R.id.serviceOff);
 	    statText = (TextView)findViewById(R.id.stat);
 	    statText.setText("");
 		selectButt.setOnClickListener(jumppage);
-		serviceButt.setOnClickListener(startCounter);
+		serviceOnButt.setOnClickListener(startCounter);
+		serviceOffButt.setOnClickListener(stopCounter);
 	    
 		// start Facebook Login
 	    Session.openActiveSession(this, true, new Session.StatusCallback() {
@@ -41,6 +45,7 @@ public class FrontActivity extends Activity {
 	            @Override
 	            public void onCompleted(GraphUser user, Response response) {
 	              if (user != null) {
+	            	  theUser = user ;
 	                statText.setText("Hello!!\n" + user.getName() + "!");
 	              }
 	              else {
@@ -56,6 +61,7 @@ public class FrontActivity extends Activity {
 	private Button.OnClickListener jumppage = new Button.OnClickListener(){
 		public void onClick(View v){
 			Intent intent = new Intent(FrontActivity.this, SelectActivity.class);
+			intent.putExtra("uID", theUser.getId());
 			startActivity(intent);
 		}
 	};
@@ -64,6 +70,13 @@ public class FrontActivity extends Activity {
 		public void onClick(View v){
 			Intent intent = new Intent(FrontActivity.this, MonitorService.class);
 			startService(intent);
+		}
+	};
+	
+	private Button.OnClickListener stopCounter = new Button.OnClickListener(){
+		public void onClick(View v){
+			Intent intent = new Intent(FrontActivity.this, MonitorService.class);
+			stopService(intent);
 		}
 	};
 	

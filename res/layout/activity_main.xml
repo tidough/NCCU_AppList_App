@@ -24,11 +24,19 @@
     android:textSize="30sp" />
 
 <Button
-    android:id="@+id/service"
+    android:id="@+id/serviceOn"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_below="@+id/select"
     android:layout_centerHorizontal="true"
-    android:text="@string/service_button" />
+    android:text="@string/serviceOn_button" />
+
+<Button
+    android:id="@+id/serviceOff"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/serviceOn"
+    android:layout_centerHorizontal="true"
+    android:text="@string/serviceOff_button" />
 
 </RelativeLayout>

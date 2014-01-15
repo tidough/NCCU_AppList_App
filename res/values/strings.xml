@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">AppList</string>
+    <string name="app_name">APPList</string>
     <string name="title_activity_select">Submit your applist</string>
-    <string name="title_activity_front">Welcome to Applist</string>
+    <string name="title_activity_front">Welcome to APPlist</string>
     <string name="action_settings">Setting</string>
-    <string name="hello_world">Hello Applist!</string>
+    <string name="hello_world">Hello APPlist!</string>
     <string name="select_button">Submit applist</string>
-    <string name="service_button">Record your applist</string>
+    <string name="serviceOn_button">Monitor your applist</string>
+    <string name="serviceOff_button">Record your applist</string>
     <string name="select_all">Select all</string>
     <string name="submit">Submit applist</string>
-    <string name="app_id">581538358592215</string>
+    <string name="app_id">659374167448488</string>
 
 </resources>
